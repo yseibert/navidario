@@ -1,1 +1,0 @@
-import{a as r,t}from"../chunks/disclose-version.CEiDrDA1.js";import"../chunks/legacy.BZTCRGBR.js";var s=t(`<header class="svelte-wqv7g2"><h1 class="svelte-wqv7g2">Ortenisa's Navidario</h1></header>`);function v(a){var e=s();r(a,e)}export{v as component};
