@@ -1,5 +1,23 @@
+<script lang="ts">
+    import { movies } from './../movie-list'
+
+    const date = new Date();
+    const month = date.getMonth();
+    const day = date.getDate();
+    const movie = getCurrentMovie();
+
+    function getCurrentMovie() {
+        return movies.find(movie => movie.id === day) || { id: 0, title: 'None', path: '', description: ''};
+    }
+</script>
+
 <header>
-    <h1>Ortenisa's Navidario</h1>
+    {#if month === 11}
+        <p class="title">Para el día {day} de diciembre tu película será...</p>
+        <img src={movie.path} alt={movie.title} />
+    {:else}
+        <p class="title">Tienes que tener un poco más de paciencia</p>
+    {/if}
 </header>
 
 <style>
@@ -7,7 +25,7 @@
         text-align: center;
     }
 
-    h1 {
+    .title {
         color: white
     }
 </style>
