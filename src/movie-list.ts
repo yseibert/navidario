@@ -2,184 +2,164 @@ import type { Movie } from "./types";
 
 export const movies: Movie[] = [
     {
-        id: 1,
         title: "The Family Stone",
         path: "/movie-images/movie-1.jpg",
-        description: "",
+        description:
+            "Quería empezar con una película famosa que no sé si la has visto (pero como eres friki de Navidad, seguro que sí). Espero que te ayude entrar en el mood. 😌",
     },
     {
-        id: 2,
         title: "Little Women",
         path: "/movie-images/movie-2.jpg",
-        description: "",
+        description:
+            "Directamente al principio también quería poner una película un poco diferente para dar un toque especial. Dile a Yannic tu opinión!",
     },
     {
-        id: 3,
         title: "National Lampoon's Christmas Vacation",
         path: "/movie-images/movie-3.jpg",
         description: "",
     },
     {
-        id: 4,
         title: "Joyeux Noel",
         path: "/movie-images/movie-4.jpg",
         description: "",
     },
     {
-        id: 5,
         title: "Serendipity",
         path: "/movie-images/movie-5.jpg",
         description: "",
     },
     {
-        id: 6,
         title: "Klaus",
         path: "/movie-images/movie-6.jpg",
         description: "",
     },
     {
-        id: 7,
         title: "A Christmas Detour",
         path: "/movie-images/movie-7.jpg",
         description: "",
     },
     {
-        id: 8,
         title: "Gremlins",
         path: "/movie-images/movie-8.jpg",
         description: "",
     },
     {
-        id: 9,
         title: "The Christmas Chronicles",
-        path: "/movie-images/movie-9.jpg",
+        path: "/movie-images/movie-9.png",
         description: "",
     },
     {
-        id: 10,
         title: "Home Alone",
         path: "/movie-images/movie-10.jpg",
         description: "",
     },
     {
-        id: 11,
         title: "Meet Me in St. Louis",
         path: "/movie-images/movie-11.jpg",
         description: "",
     },
 
     {
-        id: 12,
         title: "Arthur Christmas",
         path: "/movie-images/movie-12.jpg",
         description: "",
     },
     {
-        id: 13,
         title: "The Holiday",
         path: "/movie-images/movie-13.jpg",
         description: "",
     },
     {
-        id: 14,
         title: "While You Were Sleeping",
         path: "/movie-images/movie-14.jpg",
         description: "",
     },
     {
-        id: 15,
         title: "Elf",
         path: "/movie-images/movie-15.jpg",
         description: "",
     },
     {
-        id: 16,
         title: "One Magic Christmas",
         path: "/movie-images/movie-16.jpg",
         description: "",
     },
     {
-        id: 17,
         title: "Miracle on 34th Street",
         path: "/movie-images/movie-17.jpg",
         description: "",
     },
     {
-        id: 18,
         title: "The Nightmare Before Christmas",
         path: "/movie-images/movie-18.jpg",
         description: "",
     },
     {
-        id: 19,
         title: "It’s a Wonderful Life",
         path: "/movie-images/movie-19.jpg",
         description: "",
     },
     {
-        id: 20,
         title: "Prancer",
         path: "/movie-images/movie-20.jpg",
         description: "",
     },
     {
-        id: 21,
         title: "The Grinch",
         path: "/movie-images/movie-21.jpg",
         description: "",
     },
     {
-        id: 22,
         title: "Love Actually",
         path: "/movie-images/movie-22.jpg",
         description: "",
     },
     {
-        id: 23,
         title: "Last Christmas",
         path: "/movie-images/movie-23.jpg",
         description: "",
     },
     {
-        id: 24,
         title: "White Christmas",
         path: "/movie-images/movie-24.jpg",
         description: "",
     },
     {
-        id: 25,
         title: "A Christmas Carol",
         path: "/movie-images/movie-25.jpg",
         description: "",
     },
     {
-        id: 26,
         title: "Home Alone 2",
         path: "/movie-images/movie-26.jpg",
-        description: "",
+        description:
+            "Sabías que iba a venir la segunda parte! Pero es un clásico y da muy buen rollo, así que es muy importante. 😁",
     },
     {
-        id: 27,
         title: "Carol",
         path: "/movie-images/movie-27.jpg",
         description: "",
     },
     {
-        id: 28,
         title: "The Polar Express",
         path: "/movie-images/movie-28.jpg",
         description: "",
     },
     {
-        id: 29,
         title: "Four Christmases",
-        path: "/movie-images/movie-29.jpg",
+        path: "/movie-images/movie-29.png",
         description: "",
     },
     {
-        id: 30,
         title: "Harry Potter",
         path: "/movie-images/movie-30.jpg",
         description: "",
     },
 ];
+
+export const emptyMovie = {
+    id: 0,
+    title: "None",
+    path: "/movie-images/none.jpg",
+    description: "Todavía tienes que tener un poco de paciencia :)",
+};
