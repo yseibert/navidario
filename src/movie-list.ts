@@ -170,5 +170,6 @@ export const emptyMovie = {
     id: 0,
     title: "None",
     path: "/movie-images/none.jpg",
-    description: "Todavía tienes que tener un poco de paciencia. 🙂",
+    description:
+        "Todavía no es diciembre, así que tienes que tener un poco más paciencia 🙂.",
 };
