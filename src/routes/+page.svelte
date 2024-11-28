@@ -2,6 +2,7 @@
     import { movies, emptyMovie } from './../movie-list'
     import Modal from './../components/modal.svelte'
     import '../fonts.css';
+    import { base } from '$app/paths';
 
     const date = new Date();
     const month = date.getMonth();
@@ -45,14 +46,10 @@
             {#if month === 11}<h2>{movie.title}</h2>{/if}
             <p class="description">{movie.description}</p>
         </div>
-        <img class="behind-door" src={movie.path} alt={movie.title} />
+        <img class="behind-door" src={base + movie.path} alt={movie.title} />
         <div class="day-number {isOpen ? 'disappear' : ''}">{day}</div>
     </div>
 </main>
-<audio autoplay loop>
-    <source src="/christmas-spirit.mp3" type="audio/mp3" />
-    Your browser does not support the audio element.
-</audio>
 {#if showModal}<Modal bind:showModal></Modal>{/if}
 
 
