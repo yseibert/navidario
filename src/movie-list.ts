@@ -5,7 +5,7 @@ export const movies: Movie[] = [
         title: "The Family Stone",
         path: "/movie-images/movie-1.jpg",
         description:
-            "Quería empezar con una película famosa que no sé si la has visto (pero como eres friki de Navidad, seguro que sí). Espero que te ayude entrar en el mood. 😌",
+            "Quería empezar con una película famosa que no sé si la has visto (pero como eres friki de Navidad, seguro que sí). Espero que te ayude entrar en el mood 😌.",
     },
     {
         title: "Little Women",
@@ -16,58 +16,67 @@ export const movies: Movie[] = [
     {
         title: "National Lampoon's Christmas Vacation",
         path: "/movie-images/movie-3.jpg",
-        description: "",
+        description:
+            "Bueno, esa es simplemente para que te rías 😁. Espero que la logre por lo menos tantas veces para que sea suficiente tener un buen día.",
     },
     {
         title: "Joyeux Noel",
         path: "/movie-images/movie-4.jpg",
-        description: "",
+        description:
+            "El espíritu navideño no solo se demuestra a través de las familias o parejas en un ambiente cozy. Esta película te lo enseñará.",
     },
     {
         title: "Serendipity",
         path: "/movie-images/movie-5.jpg",
-        description: "",
+        description:
+            "Con tus preferencias ya sé que te gustan las películas cursis, así que disfruta! Hoy viene Yannic, por lo tanto deberías proponerle un plan guay. 😌",
     },
     {
         title: "Klaus",
         path: "/movie-images/movie-6.jpg",
-        description: "",
-    },
-    {
-        title: "A Christmas Detour",
-        path: "/movie-images/movie-7.jpg",
-        description: "",
+        description:
+            "Hoy es Nikolaus. Suena similar al nombre de esta película. También fue una de las recomendaciones de Yannic, es realmente buena!",
     },
     {
         title: "Gremlins",
         path: "/movie-images/movie-8.jpg",
-        description: "",
+        description:
+            "Algo de horror. Si no te atreves, puedes verla con alguien 😉. Pero como chica culta seguro que ya la has visto y sabes qué te espera.",
+    },
+    {
+        title: "A Christmas Detour",
+        path: "/movie-images/movie-7.jpg",
+        description:
+            "Te está gustando hasta ahora? La trama de esta película debería gustarte, el destino a veces nos pone en situaciones inesperadas.",
     },
     {
         title: "The Christmas Chronicles",
         path: "/movie-images/movie-9.png",
-        description: "",
+        description:
+            "No todo puede ser romántico. Ésta de deja con un gusano de oreja (Ohrwurm 😉). Puedes demostrarle a todo el mundo tus habilidades de cantar.",
     },
     {
         title: "Home Alone",
         path: "/movie-images/movie-10.jpg",
-        description: "",
+        description:
+            'La recomendación que te "decepcionó". Pero obviamente tiene que estar en la lista, porque sin ella las Navidades no serían lo mismo.',
     },
     {
         title: "Meet Me in St. Louis",
         path: "/movie-images/movie-11.jpg",
-        description: "",
+        description:
+            "Por algún motivo puedo imaginarme como vivirías en una época completamente distinta. Quizá sea porque tienes un estilo clásico y eterno. Esta película te lleva a otros tiempos.",
     },
-
     {
         title: "Arthur Christmas",
         path: "/movie-images/movie-12.jpg",
-        description: "",
+        description: "Es animada, pero no de Disney. Te puede gustar 😌?",
     },
     {
         title: "The Holiday",
         path: "/movie-images/movie-13.jpg",
-        description: "",
+        description:
+            'Tus "holidays" todavía no están. Esta película está, para que puedas aguantar un poco más. Ya sabes que te traerá buenas emociones (y no solo por Jude Law).',
     },
     {
         title: "While You Were Sleeping",
@@ -133,7 +142,7 @@ export const movies: Movie[] = [
         title: "Home Alone 2",
         path: "/movie-images/movie-26.jpg",
         description:
-            "Sabías que iba a venir la segunda parte! Pero es un clásico y da muy buen rollo, así que es muy importante. 😁",
+            "Sabías que iba a venir la segunda parte! Pero es un clásico y da muy buen rollo, así que es muy importante 😁. Disfruta el última día de Navidad oficial!",
     },
     {
         title: "Carol",
@@ -161,5 +170,5 @@ export const emptyMovie = {
     id: 0,
     title: "None",
     path: "/movie-images/none.jpg",
-    description: "Todavía tienes que tener un poco de paciencia :)",
+    description: "Todavía tienes que tener un poco de paciencia. 🙂",
 };

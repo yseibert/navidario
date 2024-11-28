@@ -1,5 +1,6 @@
 <script lang="ts">
     import { movies, emptyMovie } from './../movie-list'
+    import Modal from './../components/modal.svelte'
     import '../fonts.css';
 
     const date = new Date();
@@ -7,6 +8,7 @@
     let day = $state(date.getDate());
     let isOpen = $state(month !== 11);
     let movie = $derived(getCurrentMovie(day));
+    let showModal = $state(month !== 11);
     if (month === 11) openDoor();
 
     function getCurrentMovie(day: number) {
@@ -47,11 +49,17 @@
         <div class="day-number {isOpen ? 'disappear' : ''}">{day}</div>
     </div>
 </main>
+<audio autoplay loop>
+    <source src="/christmas-spirit.mp3" type="audio/mp3" />
+    Your browser does not support the audio element.
+</audio>
+{#if showModal}<Modal bind:showModal></Modal>{/if}
 
 
 <style>
     :global(body) {
         color: white;
+        padding: 0;
     }
 
     .title {
@@ -86,7 +94,6 @@
         display: flex;
         justify-content: center;
         border: solid #5C4033 5px;
-        display: flex;
         justify-content: space-around;
         align-items: center;
         flex-direction: row-reverse;
@@ -131,6 +138,7 @@
     .description {
         width: 300px;
         font-family: 'Lato Light', sans-serif;
+        text-align: center;
     }
 
     img {
