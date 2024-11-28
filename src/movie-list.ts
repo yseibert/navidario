@@ -65,7 +65,7 @@ export const movies: Movie[] = [
         title: "Meet Me in St. Louis",
         path: "/movie-images/movie-11.jpg",
         description:
-            "Por algún motivo puedo imaginarme como vivirías en una época completamente distinta. Quizá sea porque tienes un estilo clásico y eterno. Esta película te lleva a otros tiempos.",
+            "Por algún motivo puedo imaginarme como vivirías en una época completamente distinta. Quizá sea porque tienes un estilo clásico. Esta película te lleva a otros tiempos.",
     },
     {
         title: "Arthur Christmas",
